@@ -17,3 +17,6 @@ print(first_num + second_num)
 first_num = input('Enter your first number ')
 second_num = input('Enter your second number ')
 print(first_num + second_num)
+# To revceive the accurate calculation, we convert from one datatype to another. Below shows int and float. Float will have a decimal while int won't have a decimal. See below
+print(int(first_num) + int(second_num))
+print(float(first_num) + float(second_num))
