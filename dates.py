@@ -15,3 +15,7 @@ print('Yesterday was: ' + str(yesterday))
 print('Day: ' + str(current_date.day))
 print('Month: ' + str(current_date.month))
 print('Year: ' + str(current_date.year))
+# Scenario where developer receives a date as a string. Dev will need to convert that date as a datetime object like below
+birthday = input('What is your birthday (dd/mm/yyyy)? ')
+birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
+print('Birthday: ' + str(birthday_date))
