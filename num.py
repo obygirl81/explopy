@@ -13,3 +13,7 @@ print(str(days_in_feb) + ' days in February')
 first_num = '8'
 second_num = '10'
 print(first_num + second_num)
+#  Input number always returns strings
+first_num = input('Enter your first number ')
+second_num = input('Enter your second number ')
+print(first_num + second_num)
