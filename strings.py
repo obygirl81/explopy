@@ -8,3 +8,7 @@ print(express.upper())
 print(express.lower())
 print(express.capitalize())
 print(express.count('e'))
+# Putting it all together
+first_name =  input('Enter your first name ')
+last_name = input('Enter your last  name ')
+print('Hello ' + first_name.capitalize() + ' ' + last_name.capitalize())
