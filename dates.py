@@ -23,3 +23,4 @@ print('Birthday: ' + str(birthday_date))
 one_day = timedelta(days=1)
 birthday_eve = birthday_date - one_day
 print('The day before birthday: ' + str(birthday_eve))
+# Remember to add exception handling in your code in the case a user enters an invalid date
