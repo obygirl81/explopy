@@ -19,3 +19,7 @@ print('Year: ' + str(current_date.year))
 birthday = input('What is your birthday (dd/mm/yyyy)? ')
 birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
 print('Birthday: ' + str(birthday_date))
+# Using date functions when you  have converted to a datetime object
+one_day = timedelta(days=1)
+birthday_eve = birthday_date - one_day
+print('The day before birthday: ' + str(birthday_eve))
