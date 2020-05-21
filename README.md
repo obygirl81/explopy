@@ -1,6 +1,5 @@
 # Coding with python
-This is a simple code developed using:
-** Python
+This is a simple code developed using Python
 
 Exploring python and playing around with stuffs
 
