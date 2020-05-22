@@ -16,3 +16,10 @@ scores.append(96)
 print(scores)
 print(scores[1])
 print(scores[0])
+# Common oeprations are shown below
+names = ['Kevin', 'Flooki', 'Lucy']
+print(len(names))  # will give the number  of items
+names.insert(0, 'John') # this will insert before index
+print(names)
+names.sort()
+print(names)
