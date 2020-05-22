@@ -9,3 +9,10 @@ print(scores)
 print(scores[0])
 print(scores[1])
 # Arrays are also collection of items. To use an array, you have to create an array object and you get them by bringing them in from array library
+from array  import array
+scores = array('d')
+scores.append(99)
+scores.append(96)
+print(scores)
+print(scores[1])
+print(scores[0])
