@@ -19,3 +19,9 @@ if country == 'america':
     print("You're an American") # used double quote because I have a signle quote inside the sentence
 else:
     print("You're not from America") # used double quote because I have a signle quote inside the sentence
+# Use string functions to make case insensitive comparisons
+country = 'AMERICA'
+if  country.lower() == 'america':
+    print("You're an American!")    
+else:
+    print("You're not from America")
