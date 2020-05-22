@@ -8,4 +8,6 @@ elif city == 'Aurora':
     tax = 0.07
 elif city == 'Englewood':
     tax = 0.09
+else:
+    tax = 0.20
 print(tax)
