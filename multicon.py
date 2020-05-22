@@ -4,7 +4,7 @@ tax = 0
 
 if city == 'Denver' or city == 'Golden': # using or statement
     tax = 0.08
-elif city == 'Aurora':
+elif city in('Aurora', 'Monument', 'Boulder'):
     tax = 0.07
 elif city == 'Englewood':
     tax = 0.09
