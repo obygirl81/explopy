@@ -1,7 +1,7 @@
 # Checking multiple conditions to determine the correct action
 country = input('What country do you live in? ')
 
-if country == 'America':
+if country.lower() == 'america':
     city = input('What city do you live in? ')
 
     if city == 'Denver' or city == 'Golden': # using or statement
