@@ -13,3 +13,9 @@ if price >= 1.00:
 else:
     tax = 0
 print(tax)
+# String comparision are case sensitive so be careful when comparing string.  See example below
+country = 'AMERICA'
+if country == 'america':
+    print("You're an American") # used double quote because I have a signle quote inside the sentence
+else:
+    print("You're not from America") # used double quote because I have a signle quote inside the sentence
