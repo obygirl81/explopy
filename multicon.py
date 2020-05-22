@@ -2,7 +2,7 @@
 city = input('What city do you live in? ')
 tax = 0
 
-if city == 'Denver':
+if city == 'Denver' or city == 'Golden': # using or statement
     tax = 0.08
 elif city == 'Aurora':
     tax = 0.07
