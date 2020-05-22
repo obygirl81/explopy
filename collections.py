@@ -23,3 +23,14 @@ names.insert(0, 'John') # this will insert before index
 print(names)
 names.sort()
 print(names)
+# Retrieving ranges
+names = ['Mary', 'Ashley', 'Susan', 'Dillon']
+presenters = names[0:3] #  indicates the start and end index
+print(names)
+print(presenters)
+# dictionaries
+person = {'first': 'Kim'}
+person['last'] = 'Joke'
+print(person)
+print(person['first'])
+print(person['last'])
