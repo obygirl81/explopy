@@ -1,12 +1,12 @@
-laura = {} # empty  dictionary or place holder
+laura = {} # empty  dictionary or place holder. Can use to create an object
 laura['first'] = 'Laura'
 laura['last'] = 'Mongo'
 
-Mya = {}  # empty list or place holder 
+Mya = {} 
 Mya['first'] = 'Mya'
 Mya['last'] = 'Node'
 
-people = []
+people = []  # empty list or place holder . Can use list to add multiple things
 people.append(laura)
 people.append(Mya)
 print(people)
