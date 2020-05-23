@@ -43,14 +43,26 @@ for x in range(0,10):
 print_time('loop completed')
 
 # Working with a function that returns a value
+# def get_initial(name):
+#     initial = name[0:1]
+#     return initial
+
+# first_name = input('Enter your first name: ')
+# first_name_initial = get_initial(first_name)
+
+# last_name = input('Enter your last name: ')
+# last_name_initial = get_initial(last_name)
+
+# print('Your initials are ' + first_name_initial + last_name_initial)
+
+# Showing same function above but with less code below:
 def get_initial(name):
-    initial = name[0:1]
+    initial = name[0:1].upper()
     return initial
 
 first_name = input('Enter your first name: ')
-first_name_initial = get_initial(first_name)
-
 last_name = input('Enter your last name: ')
-last_name_initial = get_initial(last_name)
 
-print('Your initials are ' + first_name_initial + last_name_initial)
+print('Your initials are: ' \
+    + get_initial(first_name) \
+    + get_initial(last_name))
