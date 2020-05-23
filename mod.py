@@ -19,3 +19,15 @@ display('Not a warning')
 #import specific items inti different namespace
 from mod import display
 display('Not a warning')
+
+# The three codes above are doing the same thing, they are just written differently. Only different is how we call it. ther's no impact whatsoever
+# Packages on the other hand is a published collection of modules. To install a package, must use pip. see examples below
+# Install an individual package
+pip install colorama
+
+# Install from a list of packages
+pip install -r requirements.txt # a text file of all of the package that you'll be using
+
+# requirements.text
+colorama
+
