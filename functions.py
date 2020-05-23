@@ -1,6 +1,6 @@
 # Using functions is a way to write code efiiciently especially since we sometimes copy and paste our code
 # printing timestamps to see how long sections take to run , copying and pasting 
-import datetime
+from datetime import datetime
 
 # first_name = 'Gloria'
 # print('task completed')
@@ -17,7 +17,8 @@ import datetime
 # Print the current time
 def print_time():
     print('task completed')
-    print(datetime.datetime.now())
+    # print(datetime.datetime.now())
+    print(datetime.now()) # a better way of rewriting the code i have on line 20 since I adjusted teh statement on line 3
     print()
     
 first_name = 'Ragnar'
