@@ -66,3 +66,7 @@ last_name = input('Enter your last name: ')
 print('Your initials are: ' \
     + get_initial(first_name) \
     + get_initial(last_name))
+
+# Functions make your code more readable and easier to maintain
+# Always add a comment to explain the purpose of your functions
+# Functions must be declared before the line of code where the functions is called
