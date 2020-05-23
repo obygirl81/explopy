@@ -56,10 +56,11 @@ print_time('loop completed')
 # print('Your initials are ' + first_name_initial + last_name_initial)
 
 # Showing same function above but with less code below:
-def get_initial(name):
+def get_initial(name):  # This function will return the first initial of a name
     initial = name[0:1].upper()
     return initial
 
+# Ask user for their name and return  the initials
 first_name = input('Enter your first name: ')
 last_name = input('Enter your last name: ')
 
