@@ -1,6 +1,14 @@
 # using for loop and while loop
 people = ['Mike', 'Susan', 'Logan']
 
+for name in people:
+    print(name)
+    
+for index in range(0,3):
+    print(index)
+
+people.append('Lucy')
+
 print() # just putting an empty line
 # for name in people:
 #     print(name)
