@@ -15,4 +15,4 @@ print() # just putting an empty line
 index = 0
 while index < len(people):
     print(people[index])
-    index = index + 1
+    index = index + 1  # changing the while loop condition
