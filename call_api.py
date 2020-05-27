@@ -1,10 +1,10 @@
 # Use the request library to simplify making a REST API call from pytthon
-import requests 
+import requests
 
 # import json library to read teh data passed back
 import json
 # Put in key to access my computer Vision Service
-SUBSCRIPTION_KEY = '286747d63cbd405a802a492dd20cec34'
+SUBSCRIPTION_KEY = 'ENTERYOURKEY'  #enter your api-key
 
 # Put in address of the Computer Vision service
 vision_service_address = 'https://pythonimageanal.cognitiveservices.azure.com/'
