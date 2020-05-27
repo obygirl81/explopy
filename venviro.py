@@ -28,4 +28,4 @@ mod.display('Sample message', True)
 
 print()
 from mod  import display
-display('Sample message again!', True)
+display('Sample message again!', False)
